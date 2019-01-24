@@ -26,8 +26,10 @@ namespace WXdoFor.Controllers
             return 1;
         }
 
-
-           
-        
+        public int AddUser()
+        {
+            return 8;
+        }
+        //liuqingyang 
     }
 }
