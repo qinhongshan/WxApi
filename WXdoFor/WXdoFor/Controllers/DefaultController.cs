@@ -15,11 +15,16 @@ namespace WXdoFor.Controllers
         [ActionName("getUserList")]
         public List<Models.User> GetUsers()
         {
-            //雇员
+            //雇员刚刚
             var list = new MyList();
            //急急急
             return list.userlist();
         }
-        //777
+
+        public int AddUser()
+        {
+            return 1;
+        }
+
     }
 }
