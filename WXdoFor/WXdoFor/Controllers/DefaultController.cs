@@ -20,9 +20,10 @@ namespace WXdoFor.Controllers
 
             return list.userlist();
         }
+
         public int AddUser()
         {
-            return 1;
+            return 8;
         }
     }
 }
