@@ -15,7 +15,7 @@ namespace WXdoFor.Controllers
         [ActionName("getUserList")]
         public List<Models.User> GetUsers()
         {
-            //雇员
+            //雇员刚刚
             var list = new MyList();
 
             return list.userlist();
