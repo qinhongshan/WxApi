@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 
 using WXdoFor.Models;
+
 namespace WXdoFor.Controllers
 {
     public class DefaultController : ApiController
@@ -14,6 +15,7 @@ namespace WXdoFor.Controllers
         [ActionName("getUserList")]
         public List<Models.User> GetUsers()
         {
+            //雇员
             var list = new MyList();
 
             return list.userlist();
