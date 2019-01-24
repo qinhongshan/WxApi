@@ -20,10 +20,9 @@ namespace WXdoFor.Controllers
            //急急急
             return list.userlist();
         }
-
-        public int AddUser()
+        public string nihao()
         {
-            return 1;
+            return "41112";
         }
 
         public int AddUser()
